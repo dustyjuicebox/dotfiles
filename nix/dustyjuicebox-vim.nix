@@ -25,7 +25,7 @@ let
   };
 in
 vim_configurable.customize {
-  name = "onethirtyfive-vim";
+  name = "dustyjuicebox-vim";
   vimrcConfig.customRC = builtins.readFile vimrcFile;
   vimrcConfig.vam.knownPlugins = pkgs.vimPlugins // {
     "vim-ack" = vimAck;

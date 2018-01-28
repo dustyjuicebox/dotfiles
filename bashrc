@@ -7,7 +7,7 @@ export EDITOR=vim
 # General usefulness:
 alias is="env | grep -i NIX_SHELL"
 alias gs="git status"
-alias vim="onethirtyfive-vim"
+alias vim="dustyjuicebox-vim"
 alias rmswp="find . -name *.swp | xargs rm"
 
 # Ruby:

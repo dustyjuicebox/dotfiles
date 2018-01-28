@@ -1,11 +1,11 @@
 { pkgs
-, onethirtyfiveVim }:
+, dustyjuiceboxVim }:
 let
   inherit (pkgs) buildEnv;
 in
 buildEnv {
 
-  name = "onethirtyfive-devenv";
+  name = "dustyjuicebox-devenv";
   paths = with pkgs; [
     bash
     bashCompletion
@@ -17,7 +17,7 @@ buildEnv {
     zip
     ack
 
-    onethirtyfiveVim
+    dustyjuiceboxVim
 
     nix-repl
     nix-prefetch-scripts
